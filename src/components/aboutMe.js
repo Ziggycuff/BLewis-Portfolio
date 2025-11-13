@@ -10,8 +10,6 @@ function AboutMe() {
                     As a software engineer specializing in backend development, I possess a strong passion for tackling intricate challenges and ensuring functionality.
                     
                     Proficient in crafting REST APIs and adept at utilizing Java, JavaScript, and Python, I thrive within agile frameworks.
-                    
-                    Eager to start my first venture within the tech sector, I am actively seeking to join a dynamic team where I can lend my skills to impactful projects.
                 </p>
             </div>
         </section>
