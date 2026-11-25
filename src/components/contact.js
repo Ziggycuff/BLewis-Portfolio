@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css'; 
+import '../App.css';
 
 function Contact() {
     return (
@@ -11,8 +11,8 @@ function Contact() {
                     touch with me through the following channels.
                 </p>
                 <ul className="contact-list">
-                    <li>Email: BrandonLewis94@protonmail.com</li>
-                    <li>GitHub: github.com/BLewis-Keyin</li>
+                    <li>Email: <a href="mailto:BrandonLewis94@protonmail.com">BrandonLewis94@protonmail.com</a></li>
+                    <li>GitHub: <a href="https://github.com/Ziggycuff" target="_blank" rel="noopener noreferrer">github.com/Ziggycuff</a></li>
                 </ul>
             </div>
         </section>

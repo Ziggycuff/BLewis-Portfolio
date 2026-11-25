@@ -2,6 +2,7 @@
 import './App.css';
 import React from 'react';
 import AboutMe from './components/aboutMe';
+import Experience from './components/experience';
 import Contact from './components/contact';
 import Projects from './components/projects';
 import Header from './components/Header';
@@ -33,6 +34,7 @@ function App() {
                     <Route path="/" element={
                         <>
                             <AboutMe />
+                            <Experience />
                             <Projects />
                             <Contact />
                             <GitHubPreview />

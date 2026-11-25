@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css'; 
+import '../App.css';
 
 function AboutMe() {
     return (
@@ -7,9 +7,13 @@ function AboutMe() {
             <div className="about-me-content">
                 <h2>About Me</h2>
                 <p>
-                    As a software engineer specializing in backend development, I possess a strong passion for tackling intricate challenges and ensuring functionality.
-                    
-                    Proficient in crafting REST APIs and adept at utilizing Java, JavaScript, and Python, I thrive within agile frameworks.
+                    I'm a software engineer with 2+ years of professional experience shipping production features in health-tech and field-service SaaS.
+                    Most recently I worked on a C#/.NET platform at ServiceMinder, owning features across invoicing, online scheduling, payments,
+                    third-party integrations and security.
+                </p>
+                <p>
+                    I started out in QA and still have that mindset: I like turning a vague bug report into a tested fix.
+                    I work across C#, JavaScript, Java and Python, and I've been building AI-assisted developer tooling to help teams move faster.
                 </p>
             </div>
         </section>

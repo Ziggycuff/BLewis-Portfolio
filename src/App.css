@@ -170,7 +170,7 @@ body {
     justify-self: center;
     align-content: center;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 40px 0;
 }
 
@@ -183,6 +183,8 @@ body {
 
 .repository-list {
     flex: 2;
+    min-width: 0;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
@@ -253,4 +255,75 @@ body {
 .profile-info p {
     font-size: 14px;
     color: #586069;
+}
+
+/* Experience */
+
+.experience {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.experience-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.experience h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.job {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 6px;
+}
+
+.job-header h3 {
+    font-size: 20px;
+    margin: 0;
+    text-align: left;
+}
+
+.job-role {
+    font-weight: normal;
+    color: #586069;
+}
+
+.job-period {
+    font-size: 14px;
+    color: #586069;
+}
+
+.job-summary {
+    font-style: italic;
+    color: #586069;
+    text-align: left;
+}
+
+.job ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.job li {
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.repository-language {
+    margin-bottom: 10px;
 }
